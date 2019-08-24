@@ -25,7 +25,7 @@ Requirement :
             }
 
             [JsonProperty("exampleId")]
-            public long CustomerId { get; set; }
+            public long ExampleId { get; set; }
 
             [JsonProperty("code")]
             public string Code { get; set; }
@@ -40,5 +40,5 @@ Requirement :
 > **[JsonConverter()]** : this base for us include our converter.  
 > **typeof(FDateTimeConverter)** : add our converter.  
 > **"dd MMM yyyy HH:mm"** : this is one of example our custom format date, you can add another format whatever you want.  
-> if you don't take any custome format like **[JsonConverter(typeof(FDateTimeConverter)]** as default we make format **yyyyMMdd**.
+> if you don't take any custom format like **[JsonConverter(typeof(FDateTimeConverter)]** as default we make format **yyyyMMdd**.
    
