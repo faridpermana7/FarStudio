@@ -36,9 +36,31 @@ Requirement :
         }
     }
 
+
+## MVC :
+On mvc that make DateTime Converter work, you must add BaseController on your MVC Controller. You just put **JsonController** and using **FarDatetimeConverter.Mvc**.
+
+    using FarDatetimeConverter.Mvc;
+    using System.Web.Mvc;
+
+    namespace FarstWeb.Controllers
+    {
+        public class ExamplesController : **JsonController**
+        {
+            // GET: Mahasiswas
+            public ActionResult Index(long id)
+            {
+		             var response = new object();
+               // your code
+               // your code
+               return Json(response, JsonRequestBehavior.AllowGet);
+            }
+        }
+    }
+
+
 **EXPLAIN**
 > **[JsonConverter()]** : this base for us include our converter.  
 > **typeof(FDateTimeConverter)** : add our converter.  
 > **"dd MMM yyyy HH:mm"** : this is one of example our custom format date, you can add another format whatever you want.  
 > if you don't take any custom format like **[JsonConverter(typeof(FDateTimeConverter)]** as default we make format **yyyyMMdd**.
-   
