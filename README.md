@@ -50,7 +50,7 @@ On mvc that make DateTime Converter work, you must add BaseController on your MV
             // GET: Mahasiswas
             public ActionResult Index(long id)
             {
-		             var response = new object();
+		var response = new object();
                // your code
                // your code
                return Json(response, JsonRequestBehavior.AllowGet);
