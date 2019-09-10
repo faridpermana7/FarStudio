@@ -3,7 +3,7 @@
 
 Datetime Converter
 
-link : [http://www.nuget.org/packages/FarStudio.Utility.Parser/1.0.1](http://www.nuget.org/packages/FarStudio.Utility.Parser/1.0.2)
+link : [http://www.nuget.org/packages/FarStudio.Utility.Parser](http://www.nuget.org/packages/FarStudio.Utility.Parser/1.0.2)
 
 ## Formating for property of DTO (data transfer object) Class.
 
