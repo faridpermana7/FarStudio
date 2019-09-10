@@ -45,7 +45,7 @@ On mvc that make DateTime Converter work, you must add BaseController on your MV
 
     namespace FarstWeb.Controllers
     {
-        public class ExamplesController : **JsonController**
+        public class ExamplesController : JsonController
         {
             // GET: Mahasiswas
             public ActionResult Index(long id)
