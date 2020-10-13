@@ -1,9 +1,7 @@
-# FarStudio
-### AUTHOR : FARID PERMANA
+# Farst DateTime Converter
 
-Datetime Converter
-
-link : [http://www.nuget.org/packages/FarStudio.Utility.Parser](http://www.nuget.org/packages/FarStudio.Utility.Parser/1.0.2)
+![Hex.pm](https://img.shields.io/hexpm/l/grpc) ![Nuget](https://img.shields.io/nuget/v/FarStudio.Utility.Parser)
+### AUTHOR : FARID PERMANA 
 
 ## Formating for property of DTO (data transfer object) Class.
 
