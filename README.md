@@ -8,8 +8,11 @@
 Requirement : 
  -  Newtonsoft.Json 12.0.0
 
+## How to use :
+ 1. Open **package manager
+ 2. Type : Install-Package FarStudio.Utility.Parser -Version 1.0.2
 
-## Example class :
+## Implementation on example class :
 
     using FarDatetimeConverter.Converter;
     using Newtonsoft.Json;
@@ -57,7 +60,7 @@ On mvc that make DateTime Converter work, you must add BaseController on your MV
     }
 
 
-**EXPLAIN**
+**EXPLAINATION**
 > **[JsonConverter()]** : this base for us include our converter.  
 > **typeof(FDateTimeConverter)** : add our converter.  
 > **"dd MMM yyyy HH:mm"** : this is one of example our custom format date, you can add another format whatever you want.  
